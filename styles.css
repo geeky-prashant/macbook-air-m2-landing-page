@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/macbook-air-midnight.jfif);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: 650px;
+  padding: 20px 10%;
+  transition: background-image 0.3s;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 40px;
+  cursor: pointer;
+}
+nav .btn {
+  text-decoration: none;
+  color: #fff;
+  background: #666666;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+.content {
+  margin-top: 10%;
+}
+.content h2 {
+  color: #2c80d5;
+  font-size: 25px;
+}
+.content h1 {
+  color: #222;
+  font-size: 30px;
+  margin-top: 1px;
+}
+.content p {
+  max-width: 450px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.content h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.color-select div {
+  background: #333;
+  margin-top: -12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #7d7e80;
+}
+.color-select {
+  display: flex;
+  margin-top: 30px;
+}
+.color-select #midnight {
+  background: #2e3641;
+}
+.color-select #starlight {
+  background: #f0e5d3;
+}
+.color-select #spacegray {
+  background: #7d7e80;
+}
+.color-select #silver {
+  background: #e3e4e6;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macbook Air M2 Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" id="bike">
+      <nav>
+        <img src="images/logo.png" class="logo" />
+        <a
+          href="https://www.apple.com/in/macbook-air-m2/"
+          target="_blank"
+          class="btn"
+          >Order Now</a
+        >
+      </nav>
+      <div class="content">
+        <h2>Choose your new MacBook Air</h2>
+        <h1>Macbook Air M2</h1>
+        <p>
+          There’s power in silence. Thanks to the efficiency of the M2 chip,
+          MacBook Air can deliver amazing performance without a fan — so it
+          stays completely silent no matter how intense the task.
+        </p>
+        <h3>Choose your color</h3>
+        <div class="color-select">
+          <div id="midnight"></div>
+          <div id="starlight"></div>
+          <div id="spacegray"></div>
+          <div id="silver"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let midnightBtn = document.getElementById("midnight");
+      let starlightBtn = document.getElementById("starlight");
+      let spacegrayBtn = document.getElementById("spacegray");
+      let silverBtn = document.getElementById("silver");
+      let bike = document.getElementById("bike");
+
+      midnightBtn.onclick = function () {
+        bike.style.backgroundImage = "url(images/macbook-air-midnight.jfif)";
+      };
+      starlightBtn.onclick = function () {
+        bike.style.backgroundImage = "url(images/macbook-air-starlight.jfif)";
+      };
+      spacegrayBtn.onclick = function () {
+        bike.style.backgroundImage = "url(images/macbook-air-spacegray.jfif)";
+      };
+      silverBtn.onclick = function () {
+        bike.style.backgroundImage = "url(images/macbook-air-silver.jfif)";
+      };
+    </script>
+  </body>
+</html>
