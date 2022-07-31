@@ -9,7 +9,7 @@
 
   <h2 align="center">Macbook Air M2 Landing Page</h2>
 
-  In this project, I have created Macbook Air M2 Landing Page with color variant, <br />The project is built using HTML5, CSS3 & Javascript.
+  In this project, I have created Macbook Air M2 Landing Page with color variant, The project is built using HTML5, CSS3 & Javascript.
 
   <a href="https://geeky-prashant.github.io/macbook-air-m2-landing-page/"><strong>➥ Live Demo</strong></a>
 
